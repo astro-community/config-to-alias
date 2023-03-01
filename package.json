@@ -2,7 +2,7 @@
 	"name": "@astropub/config-to-alias",
 	"description": "Add aliasing support to Vite from tsconfig.json or jsconfig.json files",
 	"type": "module",
-	"version": "0.1.0",
+	"version": "0.1.1",
 	"exports": {
 		".": {
 			"import": "./config-to-alias.js",
@@ -13,7 +13,9 @@
 	"main": "config-to-alias.js",
 	"types": "config-to-alias.d.ts",
 	"files": [
-		"dist"
+		"config-to-alias.cjs",
+		"config-to-alias.d.ts",
+		"config-to-alias.js"
 	],
 	"dependencies": {
 		"tsconfig-resolver": "^3"
