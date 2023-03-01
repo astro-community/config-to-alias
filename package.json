@@ -1,0 +1,68 @@
+{
+	"name": "@astropub/config-to-alias",
+	"description": "Add aliasing support to Vite from tsconfig.json or jsconfig.json files",
+	"type": "module",
+	"version": "0.1.0",
+	"exports": {
+		".": {
+			"import": "./config-to-alias.js",
+			"types": "./config-to-alias.d.ts",
+			"require": "./config-to-alias.cjs"
+		}
+	},
+	"main": "config-to-alias.js",
+	"types": "config-to-alias.d.ts",
+	"files": [
+		"dist"
+	],
+	"dependencies": {
+		"tsconfig-resolver": "^3"
+	},
+	"license": "CC0-1.0",
+	"keywords": [
+		"alias",
+		"aliases",
+		"astro",
+		"astro-plugin",
+		"config",
+		"configuration",
+		"file",
+		"files",
+		"import",
+		"imports",
+		"path",
+		"paths",
+		"plugin",
+		"javascript",
+		"js",
+		"jsconfig",
+		"json",
+		"resolve",
+		"script",
+		"ts",
+		"tsconfig",
+		"typescript",
+		"vite",
+		"vite-plugin"
+	],
+	"scripts": {
+		"release": "npm publish --access public"
+	},
+	"repository": {
+		"type": "git",
+		"url": "https://github.com/astro-community/config-to-alias.git"
+	},
+	"bugs": "https://github.com/astro-community/config-to-alias/issues",
+	"homepage": "https://github.com/astro-community/config-to-alias/#readme",
+	"devDependencies": {
+		"typescript": "^4.9.5",
+		"vite": "^4.1.4"
+	},
+	"peerDependencies": {
+		"vite": "^4"
+	},
+	"prettier": {
+		"singleQuote": true,
+		"useTabs": true
+	}
+}

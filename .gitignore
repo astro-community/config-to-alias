@@ -1,0 +1,13 @@
+# generated
+.astro/
+dist/
+node_modules/
+
+# logs
+*.log*
+
+# environment variables
+*.env*
+
+# macOS-specific files
+.DS_Store
